@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Lobster&family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/Logo.png" alt="bootstrap" width="40" height="30">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Client</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Service
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">App development</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">SEO</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- slider -->
+  <div class="container">
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/1969-classic-recreations-ford-mustang-boss-429_100677932_h.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/car-6483723.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/images.jpg" class="d-block w-100 " alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+  <div class="container-fluid">
+    <!-- tag line -->
+    <div class="row m-2 justify-content-center">
+      <div class="col-12 ">
+        <h3 class="display-6 text-center" id="bottom_of_slider">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+          <br> consequuntur iure quo deserunt, ipsum earum
+        </h3>
+      </div>
+    </div>
+
+
+
+    <div class="row justify-content-center p-3 m-2">
+      <div class="col-md-3 text-center">
+        <h2 class="icon">
+          <i class="bi bi-file-code-fill text-primary"></i>
+        </h2>
+        <h5>Built for developers</h5>
+        <div>
+          landkit is built to make your life easier. Variables, build, documentation, and reusable components.
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <h2 class="icon">
+          <i class="bi bi-easel-fill text-danger"></i>
+        </h2>
+        <h5>Built for developers</h5>
+        <div>
+          landkit is built to make your life easier. Variables, build, documentation, and reusable components.
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <h2 class="icon">
+          <i class="bi bi-calendar-date-fill text-success"></i>
+        </h2>
+        <h5>Built for developers</h5>
+        <div>
+          landkit is built to make your life easier. Variables, build, documentation, and reusable components.
+        </div>
+      </div>
+    </div>
+
+
+    <hr>
+
+    <!-- growth -->
+    <div class="row justify-content-center m-4">
+      <div class="col-md-5 p-2 text-center">
+        <img src="img/photo-1590420485404-f86d22b8abf8.jpg" alt="" height="400px" width="300px">
+      </div>
+      <div class="col-md-5 p-2 pt-md-5">
+        <div class="p-2">Website Development
+          <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 90%;" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100">90%</div>
+          </div>
+        </div>
+        <div class="p-2">App Development
+          <div class="progress">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 35%;" aria-valuenow="35"
+              aria-valuemin="0" aria-valuemax="100">35%</div>
+          </div>
+        </div>
+        <div class="p-2">Software Development
+          <div class="progress">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 70%;" aria-valuenow="70"
+              aria-valuemin="0" aria-valuemax="100">70%</div>
+          </div>
+        </div>
+        <div class="p-2">SEO
+          <div class="progress">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 20%;" aria-valuenow="20"
+              aria-valuemin="0" aria-valuemax="100">20%</div>
+          </div>
+        </div>
+        <div class="p-2">Marketing
+          <div class="progress">
+            <div class="progress-bar bg-primary" role="progressbar" style="width: 70%;" aria-valuenow="70"
+              aria-valuemin="0" aria-valuemax="100">70%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- contact -->
+
+    <div class="row justify-content-evenly" style="background-color: #f1f1f1;">
+      <div class="col-md-5">
+        <form action="">
+          <h3 class="mb-4">Contact Form</h3>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Abhay yadav">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3">
+            <button class="btn btn-primary" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-5 mt-4">
+        <h3>Address</h3>
+        <div class="pt-2">
+          1180 Kimberly Way Williston Park New York - 11596
+        </div>
+        <div>
+          <i class="bi bi-telephone"></i>
+          : 917-772-5081
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d69701.45535730582!2d-74.01012263493685!3d40.75680987279208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sin!4v1679345855107!5m2!1sen!2sin"
+          width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- FAQ -->
+  <div class="row justify-content-center mt-5">
+    <div class="col-md-10 mb-3">
+      <h2 class="p-2 ">FAQ</h2>
+      <div class="accordion border" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+              plugin
+              adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
+              plugin
+              adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- footer -->
+<div class="row mt-5 justify-content-evenly p-4 bg-dark text-white">
+  <div class="col-md-3 p-2">
+    <h3>TechGun</h3>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa sit nemo odit! Deleniti, blanditiis? Assumenda aut nihil quam, voluptate repudiandae expedita doloribus corrupti harum, maxime, labore corporis nostrum nisi cumque!
+  </div>
+  <div class="col-md-3 p-2">
+    <h3>Important Links</h3>
+    <ul>
+      <a href="#" class="link-light text-decoration-none"></a>
+      <a href="#" class="link-light text-decoration-none"><li>About Us</li></a>
+      <a href="#" class="link-light text-decoration-none"><li>Contact Us</li></a>
+      <a href="#" class="link-light text-decoration-none"><li>Our Team</li></a>
+      <a href="#" class="link-light text-decoration-none"><li>Our Client</li></a>
+    </ul>
+  </div>
+  <div class="col-md-3 p-1">
+    <h3>Contact Us</h3>
+      <div class="pt-1">
+        1180 Kimberly Way <br> Williston Park <br> New York - 11596
+      </div>
+      <div>
+        <i class="bi bi-telephone"></i>
+        : 917-772-5081
+      </div>
+  </div>
+</div>
+
+
+<!-- copyright -->
+<div class="row bg-secondary text-light text-center p-2">
+  <div class="col-12">
+    <p>copyright 1999-2021 by TechGun. All Rights Reserved</p>
+  </div>
+</div>
+
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
